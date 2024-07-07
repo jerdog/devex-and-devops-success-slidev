@@ -16,6 +16,6 @@ jobs:
         with:
           node-version: 20.5
       - name: install slidevjs
-        run: 'npm install -g @slidev/cli @slidev/theme-default'
+        run: 'Y | npm install -g @slidev/cli @slidev/theme-default'
       - name: build slides
         run: 'slidev build'
