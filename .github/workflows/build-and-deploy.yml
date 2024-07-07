@@ -16,7 +16,9 @@ jobs:
         with:
           node-version: 20.5
       - name: install slidevjs
-        run: 'yes | npm install -g @slidev/cli @slidev/theme-default'
+        run: 'npm i -g @slidev/cli'
+      - name: install Playwright
+        run: 'npm i -D playwright-chromium'
       - name: build slides
         run: 'yes | slidev build'
       - name: upload build
