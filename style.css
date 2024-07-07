@@ -1,0 +1,13 @@
+.multiCol {
+        display: table;
+        table-layout: fixed; 
+        width: 100%;
+        text-align: center; 
+        .col {
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            padding: 2% 0 2% 3%; 
+            &:first-of-type { padding-left: 0; } 
+        }
+    }
