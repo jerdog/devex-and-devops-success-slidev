@@ -19,3 +19,8 @@ jobs:
         run: 'yes | npm install -g @slidev/cli @slidev/theme-default'
       - name: build slides
         run: 'slidev build'
+      - name: upload build
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: dist
