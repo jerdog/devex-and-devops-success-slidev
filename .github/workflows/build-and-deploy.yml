@@ -20,11 +20,11 @@ jobs:
         run: 'npm i -g @slidev/cli && npm i -D playwright-chromium'
       - name: build slides
         run: 'yes | slidev build'
-      - name: upload build
-        uses: actions/upload-artifact@v3
-        with:
-          name: build
-          path: dist
+#      - name: upload build
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: build
+#          path: dist
       - name: Install Netlify
         run: npm install netlify-cli@17.27.0 -g
       - name: Deploy to Netlify
