@@ -12,6 +12,8 @@
     "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "slidev-theme-the-unnamed": "^0.0.19",
+    "slidev-theme-wordman": "^0.0.7",
     "vue": "^3.4.31"
   }
 }
