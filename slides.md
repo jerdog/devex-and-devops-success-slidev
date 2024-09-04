@@ -1,7 +1,7 @@
 ---
 titleTemplate: "%s - Slidev"
 title: "Developer Experience is Central to DevOps Success"
-theme: the-unnamed #wordman, apple-basic, 
+theme: slidev-theme-the-unnamed #wordman, apple-basic, 
 info: false
 author: Jeremy Meiss
 conference: ""
