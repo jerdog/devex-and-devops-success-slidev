@@ -5,6 +5,7 @@ theme: slidev-theme-the-unnamed #wordman, apple-basic,
 info: false
 author: Jeremy Meiss
 conference: ""
+socialimg: '../images/bluesky-jerdog-white.png'
 keywords: devex,developer experience,devops
 presenter: true
 download: true
