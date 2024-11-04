@@ -40,30 +40,58 @@ layout: cover
 
 ---
 
-## What is Developer Experience?
+# What is "Developer Experience" (DevEx)?
 
-![good and bad devex](/images/slides/2-good-and-bad-devex.jpeg)
+<!--
+We've all had that experience using a tool or service that was a disaster. It could be the worst deployment process you've ever seen, or the most painful codebase you've ever had to work with, or documentation that's so confusing it makes your head spin. Or maybe a combination of them… Who here knows what I’m talking about? 
 
-<!-- From the simplicity of the setup process to the complexity of solving production issues, DevEx directly impacts developer productivity, satisfaction, and ultimately, the quality of the products they build and use. -->
+We’ve all seen examples of epicly bad websites, right? 
+-->
+
+---
+layout: image
+image: /images/slides/yale-art-school.jpg
+backgroundSize: contain
+---
+
+<!--
+Here’s an epicly bad website (as of 31-Oct-2024) from none other than the Yale School of Art. So much wrong on one page.
+-->
 
 ---
 
-### DevEx is _more_ than just your parent's DevOps lifecycle
+```bash
+git push heroku main
+```
+
+![Heroku deploy button](/images/slides/heroku-deploy-button.png)
 
 <!--
-DevEx is an integral part of the entire DevOps lifecycle, as a direct result of the choice of development tools, technologies, and platforms. That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+Heroku was long considered the gold standard for developer experience with a simple set of tools and a command-line interface that allowed developers to focus on building applications and delivering them to users. And that was it. Now of course, Heroku is still around (albeit not nearly as developer-centric as they formerly were, but that is changing), but it's not the only game in town. Anyone used Netlify, Vercel, etc.? 
+-->
+
+---
+
+## A working definition of DevEx
+  
+>_"...the **journey** of developers and practitioners as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder them from achieving success in their endeavors."_
+
+-**Jessica West**, _Co-Founder, DevEx Institute_
+
+<!--
+Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
 -->
 
 ---
 layout: image-left
-image: /images/slides/cornell-devex.jpg
+image: "/images/slides/cornell-devex.jpg"
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
 ## DevEx isn't new
 
-REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
+_REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012._
 
 <!--
 But DevEx isn't a new thing. The first mention of "developer experience" as a concept was in a paper was presented at the June IEEE 2012 International Conference on Software and System Process in Zurich. There are references in the paper going back to 1985 that deal with "programmer performance and the effects of the workplace." A few things stand out in this paper, which is a really great read.
@@ -78,9 +106,9 @@ class: my-cool-content-on-the-right
 
 ## DevEx isn't new
 
-REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
-
 >"New ways of working such as globally distributed development or the integration of self-motivated external developers into software ecosystems will require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments."
+
+_REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984). 2012."_
 
 ---
 layout: image-left
@@ -91,15 +119,48 @@ class: my-cool-content-on-the-right
 
 ## DevEx isn't new
 
-REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984)," 2012 International Conference on Software and System Process (ICSSP), Zurich, Switzerland, 2012.
-
 >"...developer experience could be defined as a means for capturing how developers think and feel about their activities within their working environments, with the assumption that an improvement of the developer experience has positive impacts on characteristics such as sustained team and project performance."
+
+_REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984). 2012."_
 
 <!--
 The second was this line, that DevEx could be a means for capturing how devs think and feel about their activities at work, and that improving their experience impacts things like sustained team and project performance.
 
 So all of this interest in DevEx isn't a new concept - but is largely driven by companies trying to sell you something, from the top down, with very little (if any) focus on developers themselves. We've all been there - we've been told we need to adopt a new way of working, and then had some new tool from some friend on the C-Suite who says that by simply using it, we'll be happier, more productive, and instantly a 10x engineer. Meanwhile, you've used it before and it's shit.
 -->
+
+---
+layout: intro
+---
+
+<div class="multiCol">
+    <div class="col">
+        <h2>Jeremy Meiss</h2>
+        <p style="font-weight: 900; font-size: 1.25rem;">Co-Founder, DevEx Consultant</p>
+        <p style="font-size: 1rem;"><em>DevEx Institute</em></p>
+        <!-- <p style="font-size: 0.8em;"><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p> -->
+        <p style="font-size: 1rem;">DevOpsDays Kansas City Organizer</p>
+    </div>
+    <div class="col">
+      <img src="/images/profile-pic.jpg" width="60%" alt="Jeremy Meiss" />
+    </div>
+</div>
+
+<!--
+
+-->
+
+---
+
+## A working definition of DevEx
+  
+>_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."  
+> -Jessica West, Co-Founder, DevEx Institute_
+
+<!--
+Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+-->
+
 ---
 
 ### Point of clarification
@@ -116,181 +177,335 @@ I think it's important to clarify that "DevEx" by default focuses on the "develo
 -->
 
 ---
-
-### Workshop some new terms
-
-- "DevOps Experience"
-- "DevExOps"
-- "DevOpsEx"
-- ?????
-
-<!-- So I figured today would be a good day to workshop some new terms. Maybe as "DevOps Experience" or "DevExOps" or "DevOpsEx"? -->
-
----
-layout: two-cols
+layout: image
+image: "/images/slides/good-devex-overall-satisfaction.jpg"
 ---
 
-<h4 style="color: rgb(111, 168, 220);">Jeremy Meiss</h4>
-
-**Co-Founder, DevEx Consultant**  
-_DevEx Institute_  
-<a href="https://devex.institute" target="_blank">https://DevEx.Institute</a>  
-DevOpsDays Kansas City Organizer
-
-::right::
-<img src="/images/profile-pic.jpg" width="60%">
-
----
-
-<div class="multiCol">
-    <div class="col">
-        <h2 style="color: rgb(111, 168, 220);">Jeremy Meiss</h2>
-        <p style="font-weight:bold;">Co-Founder, DevEx Consultant</p>
-        <p><em>DevEx Institute</em></p>
-        <p><a href="https://devex.institute" target="_blank">https://DevEx.Institute</a></p>
-        <p>DevOpsDays Kansas City Organizer</p>
-    </div>
-    <div class="col">
-      <img src="/images/profile-pic.jpg" width="60%">
-    </div>
-</div>
-
----
-
-# A working definition of DevEx
-  
->_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."  
-> -Jessica West, Co-Founder, DevEx Institute_
 
 <!--
-Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
+It's their overall satisfaction and efficiency while working on software projects. It's the tools, the processes, and the environments that shape their interactions with code, infrastructure, and each other. A positive DevEx is crucial for enhancing productivity as it directly influences how quickly and effectively developers can build, test, and deploy software.
+-->
+
+---
+layout: image
+image: "/images/slides/devex-integral-dev-lifecycle.jpg"
+---
+
+<!--
+DevEx is such an integral part of the entire development lifecycle - not just if you're developing tools for use internally, choosing off-the-shelf tools to use, or creating products for other developers and companies to use. That means that the ease of use, reliability, how accessible and understandable documentation, how efficient the build processes are, the effectiveness of testing frameworks, and the smoothness of deployment procedures all have an impact on the overall dev experience.
+-->
+
+---
+layout: image
+image: "/images/slides/text-to-cloud.jpg"
+---
+
+
+<!--
+And we've see an evolution in Developer Experience over the years.
+
+Here's an example of how Developer Experience has evolved a particular set of tools and practices:
 -->
 
 ---
 
-## DevEx includes every interaction a developer/ops practitioner has with systems, tools, and processes  
+# Evolution of the IDE
 
-![alt text](/images/slides/ui-ux-qa.gif)
-
-<!-- 
-it is about every interaction a developer or ops practitioner has with systems, tools, and processes. And we've see an evolution in Developer Experience over the years.
-
-Here's an example of how Developer Experience has evolved a particular set of tools and practices: 
--->
-
----
-
-## The evolution of the IDE
-### Early text editors
+## Early text editors
 
 ![USER FRIENDLY by Illiad, vi](/images/slides/httpatomoreillycomsourceoreillyimages2055076.png)
 REF: O'Reilly "Learning the vi and Vim Editors"
 
-<!-- 
-I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew? It was created in 1976 and included in the first BSD linux release. 
+<!--
+I think a great example is the evolution of Integrated Development Environments (IDEs). Prior to the 1990's, you had mostly text-based editors that were used to write code, like Vi, which evidently is supposed to be called "SIX". Who knew? It was created in 1976 and included in the first BSD linux release.
 -->
 
 ---
 layout: image-left
-image: /images/slides/IDE_evolution-1.jpg
+image: "/images/slides/IDE_evolution-1.jpg"
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
-## The evolution of the IDE
+# Evolution of the IDE
 
-### Early text editors
+## Early text editors
 
-- Vi (1976)
-- Emacs (1985)
-- Vim (1991)
-- Nano (1999)
+- 1976: Vi
+
+<v-clicks>
+
+- 1985: Emacs
+
+- 1991: Vim
+
+- 1999: nano
+
+</v-clicks>
+
+<!-- Then we had Emacs in 1985, Vim in 1991, my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time. -->
+
+---
+layout: image-left
+image: "/images/slides/IDE_evolution-3.jpg"
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Evolution of the IDE
+
+## Native IDEs in the 1980s
+
+<v-clicks>
+
+- 1983: Turbo Pascal
+
+- 1986: Apple's Macintosh Programmer's Workshop
+
+</v-clicks>
 
 <!--
-Then we had Emacs in 1985, Vim in 1991, my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time.
+A few Native IDEs came out in the mid-80s, with Turbo Pascal in 1983 and Apple's Macintosh Programmer's Workshop in 1986.
 -->
 
 ---
 layout: image-left
-image: /images/slides/IDE_evolution-2.jpg
+image: "/images/slides/IDE_evolution-2.jpg"
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
-## The evolution of the IDE
+# Evolution of the IDE
 
-### First plug-in IDE
-
-- HP Smartbench (1989)
+## First plug-in IDE
 
 <!-- One of the first IDEs with a plug-in concept was HP Softbench, released in 1989. HP Softbench was one of the first plug-in IDEs, shipped with its own library, -->
 
 ---
 layout: image-left
-image: /images/slides/hp-softbench-manuals.jpg
+image: "/images/slides/hp-softbench-manuals.jpg"
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
-## The evolution of the IDE
+# Evolution of the IDE
 
-### First plug-in IDE
+## First plug-in IDE
 
-- HP Smartbench (1989)
+### HP Softbench
 
-![HP Journal, June 1990 edition](/images/slides/hpjournal-june1990-hpsoftbench.jpg)
+<!--
+and was extensively talked about in the June 1990 edition of the HP Journal. 
+-->
+
+---
+layout: image-left
+image: "/images/slides/hpjournal-june1990-hpsoftbench.jpg"
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Evolution of the IDE
+
+## First plug-in IDE
+
+### HP Softbench
+
 REF: [HP Journal, June 1990 edition](http://hparchive.com/Journals/HPJ-1990-06.pdf)
 
-<!-- and was extensively talked about in the June 1990 edition of the HP Journal. It's a fascinating read, as HP lays out their vision of what software architecture and development should be, including Automated Testing, distributed computing, integrated and interchangeable tools, and more. The link to the PDF is below - I highly recommend reading it -->
+<!--
+It's a fascinating read, as HP lays out their vision of what software architecture and development should be, including Automated Testing, distributed computing, integrated and interchangeable tools, and more. The link to the PDF is below - I highly recommend reading it
+-->
 
 ---
-layout: two-cols
+layout: image-left
+image: "/images/slides/giphy-thumbs-down.gif"
+class: my-cool-content-on-the-right
 ---
+
+# Evolution of the IDE
+
+## Early Reviews
 
 > "...the use of an IDE was not well received by developers since it would fence in their creativity."
 
-::right:: 
-## The evolution of the IDE
-
-### Early reviews...
-
 REF: _Computerwoche_ ("Computer Week", German counterpart of American magazine _Computer World_), 1995.
 
-
-
-<!-- The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity. -->
-
----
-layout: image-left
-image: /images/slides/IDE_evolution-3.jpg
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-## The evolution of the IDE
-
-### Native IDEs in the 1980s
-
-- Turbo Pascal (1983)
-- Macintosh Programmer's Workshop (1986)
-
-<!-- 
-A few Native IDEs came out in the mid-80s, with Turbo Pascal in 1983 and Apple's Macintosh Programmer's Workshop in 1986. 
+<!--
+The early reviews of IDEs as a concept weren't great.... In 1995 Computer Week in Germany commented that the use of an IDE was not well received by developers since it would fence in their creativity.
 -->
 
 ---
 layout: image-left
-image: /images/slides/IDE_evolution-4.jpg
+image: "/images/slides/IDE_evolution-4.jpg"
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
 
-## The evolution of the IDE
+# Evolution of the IDE
 
-### Cross-platform in the 1990s
+## Cross-platform in the 1990s
 
-- Borland Delphi (1995)
+### 1995: Borland Delphi
 
-<!-- 
+<!--
 Borland Delphi was released in 1995 and is still around (Embarcadero Delphi v12)
 -->
+
+---
+layout: image-left
+image: "/images/slides/IDE_evolution-5.jpg"
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Evolution of the IDE
+
+## The Web and the 1990s
+
+<v-clicks>
+
+- 1995: SGI WebMagic
+
+- 1995: Microsoft FrontPage
+
+</v-clicks>
+
+<!--
+With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? SGI's WebMagic was released on January 25, 1995 built in less than 90 days. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October 1995 after Microsoft acquired it from Vermeer.
+-->
+
+---
+layout: image-left
+image: "/images/slides/IDE_evolution-6.jpg"
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Evolution of the IDE
+
+## Features & Usability
+
+### Late 1990s to 2000s
+
+<v-clicks>
+
+- 1997: Macromedia Dreamweaver
+- 1997: Netscape Composer
+- 1997: Microsoft Visual Studio
+- 1999: Microsoft FrontPage 2000
+- 2000: NetBeans
+- 2001: IntelliJ IDEA
+- 2001: Eclipse IDE
+- 2002: Microsoft Visual Studio .NET
+
+</v-clicks>
+
+<!--
+Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) Dreamweaver completely changed the game in many respects, as Macromedia had a history of their products getting community-sourced tools, plugins, scripts, etc. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, with IntelliJ and Eclipse following in 2001 along with Visual Studio which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile. Microsoft Visual Studio .NET was released in 2002, offering a more modern and feature-rich IDE for .NET development.
+-->
+
+---
+layout: image-left
+image: "/images/slides/IDE_evolution-7.jpg"
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Evolution of the IDE
+
+## Lightweight & Configurable
+
+### 2010s to Now
+
+<v-clicks>
+
+- 2008: Sublime Text
+
+- 2015: Atom
+
+- 2015: Visual Studio Code
+
+</v-clicks>
+
+<!--
+Late 2000s brought about more lightweight IDEs, like Sublime Text and later Atom and Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Event saw integrations with popular Ops tools as well.
+-->
+
+---
+layout: image-left
+image: "/images/slides/IDE_evolution-8.jpg"
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Evolution of the IDE
+
+## Cloud-based Options
+
+### Now
+
+<v-clicks>
+
+- 2009: PHPanywhere (eventually becoming CodeAnywhere)
+- 2010: Cloud9 (AWS bought it in 2016)
+- 2018: Glitch
+- 2019: GitPod
+- 2020: GitHub Codespaces
+- 2024: Google Project IDX
+
+</v-clicks>
+
+<!--
+Then, we have seen the rise of the cloud and the arrival of cloud-based IDEs: The first was PHPanywhere (eventually becoming CodeAnywhere) in 2009, followed by Cloud9 in 2010 (before AWS bought it in 2016), Glitch (2018), GitPod (2019), GitHub Codespaces (2020), and Google’s Project IDX (2024). They've really changed the game by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup. We went from this sentiment about IDEs...
+-->
+
+---
+
+# Evolution of the IDE
+
+## A result of DevEx
+
+### Things we never knew we needed...
+
+From this:
+> "...the use of an IDE was not well received by developers since it would fence in their creativity."
+
+<!--
+We went from this sentiment about IDEs...
+-->
+
+---
+
+# Evolution of the IDE
+
+## A result of DevEx
+
+### Things we never knew we needed...
+
+To this:
+
+- Code completion
+- Code refactoring
+- Syntax highlighting
+- Debugging
+- VCS integration (no more FTPing files around)
+- Multi-language support
+- Framework integration
+- Pair programming
+
+
+<!--
+We went from this sentiment about IDEs...
+-->
+
+---
+layout: image
+image: /images/slides/devex-evolution.jpg
+backgroundSize: contain
+---
+
+<!--
+I go through all of that to illustrate how the overall Developer Experience with software development has evolved over time, leading to where we sit with IDEs now. Things we didn't know we would want back in the 1960s are now commonplace and the expeected norm now in the 2020s.
+-->
+
