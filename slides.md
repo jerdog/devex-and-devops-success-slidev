@@ -20,6 +20,7 @@ remoteAssets: true
 selectable: true
 record: true
 wakeLock: build
+mdc: true
 colorSchema: auto
 aspectRatio: 16/9
 favicon: 'https://raw.githubusercontent.com/jerdog/jmeiss-me-website/main/assets/images/fav.png'
@@ -509,3 +510,136 @@ backgroundSize: contain
 I go through all of that to illustrate how the overall Developer Experience with software development has evolved over time, leading to where we sit with IDEs now. Things we didn't know we would want back in the 1960s are now commonplace and the expeected norm now in the 2020s.
 -->
 
+---
+layout: image
+image: /images/slides/modern-dev-practices.jpg
+backgroundSize: contain
+---
+
+<!--
+### Modern Development
+
+The IDE is just one example of the significant strides made in improving the developer experience. DevEx strategies have evolved to meet contemporary development challenges and opportunities. From basic, manually-configured environments to sophisticated, cloud-based, and automated setups, the journey reflects a relentless pursuit of efficiency, usability, and developer productivity.
+-->
+
+---
+layout: image
+image: /images/slides/rise-of-devops.png
+backgroundSize: contain
+---
+
+<!--
+I would say one of the biggest contributing factors to where we are today with DevEx is the rise of DevOps.
+DevOps emphasizes collaboration, automation, and continuous integration and delivery, which has led to the development of more integrated and streamlined development environments and tools. As a result we've seen in recent years a heavy emphasis on, and shift twoards, DevEx at all levels of the software development lifecycle and IT operations.
+-->
+
+---
+layout: image-left
+image: /images/slides/devops-nightmare.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+# Server Environment Setup
+
+## Manual config nightmares
+
+### Late 1990s to Early 2000s
+
+<v-clicks>
+
+![cfEngine v1](/images/slides/cfengine-earlylogo.png){width=150px}
+![cfEngine v2](/images/slides/cfengine-logo.png){width=250px}
+
+</v-clicks>
+
+<!--
+Another quick example is the setup of environments like dev, staging, and production. In the early days, setting up an environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Practitioners often struggled with version conflicts and compatibility issues between different tools and libraries.
+[click]In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
+-->
+
+---
+
+# Server Environment Setup
+
+## Config Mgmt & Containerization
+
+### Mid-2000s to 2010s
+
+<div class="flex-container">
+
+  <div><img src="/images/slides/puppet-logo.png"></div>
+  <div><img src="/images/slides/chef-logo.png"></div>
+  <div><img src="/images/slides/saltstack-logo-white.png"></div>
+  <div><img src="/images/slides/ansible-logo.png"></div>
+  <div><img src="/images/slides/docker-logo.png"></div>
+
+</div>
+
+<!--
+The advent of tools like Puppet, Chef, Saltstack, and Ansible allowed for automated setup and configuration of environments, reducing manual effort.
+
+Docker’s introduction in 2013 marked a significant shift, allowing practitioners to package applications with all their dependencies into containers, ensuring consistency across environments.
+-->
+
+---
+
+# Server Environment Setup
+
+## IaC and DevOps Integration
+
+### 2010s to Present
+
+<div class="flex-container">
+
+  <div><img src="/images/slides/terraform-logo.png"></div>
+  <div><img src="/images/slides/aws-cloudformation-logo.png"></div>
+
+</div>
+
+<v-click>
+
+<div class="flex-container">
+
+  <div><img src="/images/slides/jenkins-logo.png"></div>
+  <div><img src="/images/slides/github-actions-logo.png"></div>
+
+</div>
+
+</v-click>
+
+<!--
+Tools like Terraform and AWS CloudFormation enabled defining infrastructure through code, making setup reproducible and scalable.
+
+[click]The integration of environments with CI/CD pipelines and DevOps practices streamlined the whole process, allowing for faster and more reliable builds and deployments.
+-->
+
+---
+
+## Broader Impact of DevEx
+
+- Deployment pipelines
+
+- Infrastructure as Code (IaC) practices
+
+- Developer Efficiences
+
+<!--
+Just as we saw with IDEs, we've see the broader impact of DevEx on DevOps in things like how we deploy software, infrastructure as code, developer efficiencies, and really many more.
+-->
+
+---
+layout: quote
+---
+
+# What is DevOps?
+
+> ### the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
+
+<!--
+DevEx at it core aligns perfectly with what DevOps is....
+
+the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes
+
+A few of the core DevOps principles really bring this all together.
+-->

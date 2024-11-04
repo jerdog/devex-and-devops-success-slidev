@@ -12,6 +12,23 @@
     }
 }
 
+/* images in a flexbox */
+.flex-container {
+    display: flex;
+    height: 10rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 25px;
+    }
+.flex-container div {
+    align-self: center;
+    }
+.flex-container img {
+    height: 100px;
+}
+
 .slidev-layout.default h1::before, .slidev-layout[layout="default"] h1::before {background: var(--slidev-theme-accents-blue);}
 .slidev-layout.default h2::before, .slidev-layout[layout="default"] h2::before {background: var(--slidev-theme-accents-yellow);}
 
