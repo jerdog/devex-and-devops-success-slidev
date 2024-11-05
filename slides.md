@@ -116,6 +116,7 @@ layout: image-left
 image: /images/slides/cornell-devex.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
+transition: slide-up
 ---
 
 ## DevEx isn't new
@@ -132,6 +133,7 @@ So all of this interest in DevEx isn't a new concept - but is largely driven by 
 
 ---
 layout: intro
+transition: slide-down
 ---
 
 <div class="multiCol">
@@ -546,12 +548,8 @@ class: my-cool-content-on-the-right
 
 ### Late 1990s to Early 2000s
 
-<v-clicks>
-
 ![cfEngine v1](/images/slides/cfengine-earlylogo.png){width=150px}
 ![cfEngine v2](/images/slides/cfengine-logo.png){width=250px}
-
-</v-clicks>
 
 <!--
 Another quick example is the setup of environments like dev, staging, and production. In the early days, setting up an environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Practitioners often struggled with version conflicts and compatibility issues between different tools and libraries.
@@ -566,13 +564,13 @@ Another quick example is the setup of environments like dev, staging, and produc
 
 ### Mid-2000s to 2010s
 
-<div class="flex-container">
+<div class="flex items-center gap-10" style="padding-top:25px;">
 
-  <div><img src="/images/slides/puppet-logo.png"></div>
-  <div><img src="/images/slides/chef-logo.png"></div>
-  <div><img src="/images/slides/saltstack-logo-white.png"></div>
-  <div><img src="/images/slides/ansible-logo.png"></div>
-  <div><img src="/images/slides/docker-logo.png"></div>
+  <div><img src="/images/slides/puppet-logo.png" style="max-height: 100px !important;"></div>
+  <div><img src="/images/slides/chef-logo.png" style="max-height: 100px !important;"></div>
+  <div><img src="/images/slides/saltstack-logo-white.png" style="max-height: 100px !important;"></div>
+  <div><img src="/images/slides/ansible-logo.png" style="max-height: 100px !important;"></div>
+  <div><img src="/images/slides/docker-logo.png" style="max-height: 100px !important;"></div>
 
 </div>
 
@@ -590,23 +588,20 @@ Docker’s introduction in 2013 marked a significant shift, allowing practitione
 
 ### 2010s to Present
 
-<div class="flex-container">
+<div class="flex items-center gap-4">
 
-  <div><img src="/images/slides/terraform-logo.png"></div>
-  <div><img src="/images/slides/aws-cloudformation-logo.png"></div>
-
-</div>
+  <div><img src="/images/slides/terraform-logo.png" style="max-height: 100px !important;"></div>
+  <div><img src="/images/slides/aws-cloudformation-logo.png" style="max-height: 100px !important;"></div>
 
 <v-click>
 
-<div class="flex-container">
 
-  <div><img src="/images/slides/jenkins-logo.png"></div>
-  <div><img src="/images/slides/github-actions-logo.png"></div>
-
-</div>
+  <div><img src="/images/slides/jenkins-logo.png" style="max-height: 100px !important;"></div>
+  <div><img src="/images/slides/github-actions-logo.png" style="max-height: 100px !important;"></div>
 
 </v-click>
+
+</div>
 
 <!--
 Tools like Terraform and AWS CloudFormation enabled defining infrastructure through code, making setup reproducible and scalable.
@@ -643,3 +638,386 @@ the combination of practices and tools designed to increase an organization's ab
 
 A few of the core DevOps principles really bring this all together.
 -->
+
+---
+transition: fade
+layout: top
+---
+
+## DevOps Principles + DevEx alignment
+
+- Collaboration
+
+
+
+
+<!-- 
+**Collaboration** in DevOps **is about creating an environment where silos are broken down, and cross-functional teams are empowered to work as a single unit**. It's people first, and 
+-->
+
+---
+transition: fade
+layout: top
+---
+
+## DevOps Principles + DevEx alignment
+
+- Enhanced collaboration _**via tools and processes**_
+
+
+<!-- 
+...tools second. When DevOps and DevEx are aligned, we enhace collaboration through tools and processes that **reduce friction and barriers in the development process, enabling teams to focus more on solving business problems together, leading to innovative solutions and a more harmonious working environment.**
+-->
+
+---
+transition: fade
+layout: top
+---
+
+## DevOps Principles + DevEx alignment
+
+- Collaboration
+
+- Communication
+
+
+<!-- 
+The backbone of DevOps is effective **communication**, which ensures all members of the development, operations, and broader organizational team are on the same page. With 
+-->
+
+---
+transition: fade
+layout: top
+---
+
+## DevOps Principles + DevEx alignment
+
+- Enhanced collaboration **_via tools and processes_**
+
+- Improving communication **_via streamlined info sharing and feedback_**
+
+<!-- 
+When we are **improving Communication** , we start to utilize platforms and tools that streamline information sharing and feedback across teams. That includes your CI/CD pipelines, shared dashboards, and automated alerting systems ensure all team members have visibility into the development process, can easily share updates, and quickly address issues.
+-->
+
+---
+transition: fade
+layout: top
+---
+
+## DevOps Principles + DevEx alignment
+
+- Collaboration
+
+- Communication
+
+- Shared Responsibility
+
+<!-- 
+**Shared Responsibility** in DevOps means there is **collective accountability for the software's quality and reliability, blurring the lines between roles traditionally separated by development and operations.** It's about **moving away from a "not my job" mentality to a "we're in this together" mindset, where success and failures are shared equally**.
+-->
+
+---
+transition: fade
+layout: top
+---
+
+## DevOps Principles + DevEx alignment
+
+- Enhanced collaboration **_via tools and processes_**
+
+- Improving communication **_via streamlined info sharing and feedback_**
+
+- Shared responsibility **_by empowering all teams with access and information_**
+
+<!-- 
+That **Shared Responsibility** brings empowerment to all team members with access to the tools and information they need to contribute across the entire software lifecycle. **By democratizing access to tools and information, DevEx encourages a culture where everyone feels ownership of the product and is motivated to contribute to its success.**
+-->
+
+---
+transition: fade
+layout: image
+image: /images/slides/38-devex-integ-devops-principles.jpg
+backgroundSize: contain
+---
+
+
+
+
+<!-- 
+Organizations seeking to build more cohesive, agile, and effective teams who are better equipped to meet the demands of modern software development, have to ensure that they don't stop at just these core DevOps principles - but that they ensure an emphasis on DevEx in the implementation of the tooling. If it's a poor experience, you aren't going to see the results you want.
+
+I think a good example is what we've seen with Platform Engineering the last few years.
+-->
+
+---
+transition: fade
+---
+
+## Good DevOps == Good DevEx
+
+<v-clicks>
+
+- Facilitates smoother transitions between Dev and Ops
+
+- Minimizes bottlenecks with enhanced collaboration
+
+- Ensures feedback loops are efficient and productive
+
+- Enables DevOps principles to take hold within an organization
+
+</v-clicks>
+
+<!-- 
+[click]A good DevEx facilitates **smoother transitions between your dev and ops teams**, helps [click]**minimize bottlenecks and enhances collaboration**. Proper [click]**feedback loops are part of both DevEx & DevOps**, and with them in place you have a positive DevEx that **ensures those loops are efficient and productive**, all of which which [click]**helps DevOps principles** to take firm hold within an organization. There's no better example than what we've seen with Platform Engineering the last few years.
+-->
+
+---
+layout: image
+image: /images/slides/39-devex-devops-one.jpg
+backgroundSize: contain
+---
+
+# DevOps + DevEx = Platform Engineering
+
+<!-- 
+a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. 
+-->
+
+---
+layout: image-right
+image: /images/slides/40-platform-engineering.jpg
+class: my-cool-content-on-the-left
+---
+
+## The Rise of Platform Engineering
+
+<v-clicks>
+
+- Specific, integrated environments that devs need
+
+- Abstract away infrastructre + backend complexities
+
+- Access to robust, scalable, easy-to-use platforms
+
+- Streamline development processes and reduced setup time
+
+</v-clicks>
+
+<!-- 
+The rise of platform engineering represents a paradigm shift [click]**towards creating comprehensive, integrated environments that cater specifically to the needs of developers**. Focusing on [click]**abstracting away the complexities of infrastructure and backend services**, allows developers to concentrate on writing code and creating value. [click]Platform engineering embodies the principles of DevEx by **ensuring that developers have access to robust, scalable, and easy-to-use platforms**. [click]which **streamline development processes, reduce setup time**, and allow for a focus on innovation rather than maintenance, removing a lot of developer toil.
+-->
+
+---
+layout: image-right
+image: /images/slides/self-service-mode.jpg
+class: my-cool-content-on-the-left
+---
+
+## Self-Service Platforms
+
+<v-clicks>
+
+- Developers empowered with necessary tools
+
+- Leverage automation, templates, policies with agility
+
+- Accelerate development, enhance productivity, foster autonomy
+
+</v-clicks>
+
+<!-- 
+Self-service platforms embody the evolution of DevEx by **empowering developers** to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms **leverage automation, templates, and predefined policies** to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms **accelerate development, enhance productivity, and foster a culture of autonomy and innovation**.
+-->
+
+---
+layout: image
+image: /images/slides/42-devex-devops-convergence.jpg
+backgroundSize: contain
+---
+
+<!-- 
+### Bringing DevOps and DevEx Together
+When organizations prioritize DevEx, they ensure that devs have access to tools and processes that not only streamline their workflow but also facilitate a smoother transition of code from development to production. This alignment encourages both teams to work closely from the outset of projects, sharing insights, feedback, and responsibilities, which enhances the efficiency of the development lifecycle and leads to higher quality outcomes. Which strenghtens the implementation of DevOps culture and practices.
+-->
+
+---
+layout: image-left
+image: /images/slides/better-practices.jpg
+class: my-cool-content-on-the-right
+backgroundSize: contain
+---
+
+## Better Practices for leveling up DevEx
+
+<v-clicks>
+
+- Empower with the right tools
+
+- Encourage Cross-functional Teams
+
+- Implement Feedback Loops
+
+- Focus on Automation
+
+- Invest in Training and Development
+
+</v-clicks>
+
+<!-- 
+Some of the better practices to keep in mind when leveling up with DevEx are:
+**Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs. Get their input in the decision. Just because your buddy's IT startup says they offer 10x developer productivity doesn't mean it works for your teams, much less that it works at all.
+**Put in place cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
+**Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience.  
+Reduce toil and free up team members to focus on more strategic activities by **automating repetitive and manual tasks wherever possible.** This includes automating testing, deployments, and infrastructure provisioning.  
+**Ensure that team members have opportunities to learn and grow** their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.
+-->
+
+---
+
+## DevEx reflects an organizational culture
+
+<Tweet id="1750563607266410692" />
+
+<!-- 
+The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
+-->
+
+---
+
+# DevEx is...
+
+>### "ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful"
+
+
+<!-- 
+I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
+
+
+
+
+<!-- 
+
+-->
+
+---
