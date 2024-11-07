@@ -884,6 +884,160 @@ The level of investment that a company invests in DevEx can be a reflection of a
 -->
 
 ---
+layout: section
+---
+
+# Strategies for Improving DevEx
+<!--
+
+-->
+
+---
+
+## Improving DevEx in your organization
+
+1. Foster a positive culture
+
+2. Streamline the workflow(s)
+
+<!--
+I generally break the process of improving DevEx in an organization into two steps
+
+Foster a positive culture
+Streamline the workflow(s)
+-->
+
+---
+layout: image-left
+image: /images/slides/clear-concise-docs.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Improving DevEx
+### Foster a positive culture
+
+1. Clear and concise documentation
+
+  - Encourage knowledge sharing
+  - Create easily accessible resources to reduce toil + empower
+
+<!--
+Fostering a Positive Development Culture
+Invest in clear and concise documentation: Encourage knowledge sharing, create easily accessible resources to reduce context switching and empower developers.
+
+-->
+
+---
+layout: image-left
+image: /images/slides/promote-collab-comms.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Improving DevEx
+### Foster a positive culture
+
+1. Clear and concise documentation
+
+2. Promote collaboration and communication
+
+  - Facilitate code reviews
+  - Implement comms to foster teamwork + problem solving
+
+
+<!--
+Promote collaboration and communication: Facilitate code reviews, knowledge-sharing platforms, and communication channels to foster teamwork and problem-solving.
+-->
+
+---
+layout: image-left
+image: /images/slides/champion-growth.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Improving DevEx
+### Foster a positive culture
+
+1. Clear and concise documentation
+
+2. Promote collaboration and communication
+
+3. Champion well-being and growth
+
+  - Encourage feedback, up and down
+  - Recognize achievements
+  - Create a sense of belonging
+
+
+<!--
+Champion developer well-being and growth: Encourage feedback, recognize achievements, create a sense of belonging to boost morale and developer satisfaction.
+
+-->
+
+---
+layout: image-left
+image: /images/slides/champion-growth.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Improving DevEx
+### Streamline the workflow
+
+1. Tools and Automation
+
+  - Explore tools which are highly regarded in your field
+  - Automate repetitive tasks wherever possible
+
+<!--
+Streamlining the Development Workflow
+This approach focuses on making the development process itself smoother and more efficient. Here are some key strategies:
+Focus on tools and automation: Explore options for code editors, version control systems, CI/CD pipelines etc. to automate repetitive tasks and improve development efficiency.
+
+--> 
+
+---
+layout: image-left
+image: /images/slides/champion-growth.jpg
+backgroundSize: contain
+class: my-cool-content-on-the-right
+---
+
+## Improving DevEx
+### Streamline the workflow
+
+1. Tools and Automation
+
+2. Standardize environment setup
+
+- Use config management tools
+- Streamline onboarding for all team members
+
+<v-click>
+
+**Examples:**
+
+<div class="flex items-center gap-3" style="padding-top:10px;">
+  <div><img src="/images/slides/jfrog-artifactory.png"></div>
+  <div><img src="/images/slides/jfrog-pipelines.png"></div>
+  <div><img src="/images/slides/atlassian-logo.png"></div>
+  <div><img src="/images/slides/github-cat.png"></div>
+  <div><img src="/images/slides/gitlab-logo.png"></div>
+  <div><img src="/images/slides/ansible-logo.png"></div>
+</div>
+
+</v-click>
+
+<!--
+Standardize development environment setup: Use configuration management tools and streamline onboarding processes to ensure a consistent and efficient development environment for all team members.
+Some examples: JFrog’s Artifactory provides that centralized repo for all artifact types, making it easy for deves to find the resources they need; JFrog’s Pipelines provides a CI/CD platform for automating the build, test, deployment process. There’s also JFrog’s new collaboration with GitHub announced today. Atlassian provides a suite of tools which integration collaboration, communication, and knowledge sharing. GitHub and Gitlab provide version control and collaboration. Ansible helps to quickly and consistently set up development environments, saving time and reducing the risk of configuration errors.
+--> 
+
+---
+layout: statement
+---
 
 # DevEx is...
 
@@ -891,12 +1045,27 @@ The level of investment that a company invests in DevEx can be a reflection of a
 
 
 <!-- 
-I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
+I'll leave you with this, that DevEx is ruthlessly eliminating barriers (and blockers) that keep your practitioners from being successful.
 -->
 
 ---
+layout: two-cols
+---
 
 
+<div class="flex items-center gap-3" style="padding-top:10px;">
+
+## Thank you!
+
+</div>
+
+::right::
+
+<p><img src="/images/bluesky-logo.svg" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog.dev</p>
+<p><img src="/images/linkedin.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">/in/jeremymeiss</p>
+<p><img src="/images/devto.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog</p>
+<p><img src="/images/mastodon.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog@hachyderm.io</p>
+<p><img src="/images/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@IAmJerdog</p>
 
 
 <!-- 
@@ -904,120 +1073,11 @@ I'll leave you with this that, that DevEx is ruthlessly eliminating barriers (an
 -->
 
 ---
-
-
+layout: end
+---
 
 
 <!-- 
 
 -->
 
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
-
-
-
-
-<!-- 
-
--->
-
----
