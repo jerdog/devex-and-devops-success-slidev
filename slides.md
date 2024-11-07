@@ -4,7 +4,7 @@ title: "Developer Experience is Central to DevOps Success"
 theme: slidev-theme-the-unnamed #wordman, apple-basic, 
 info: false
 author: Jeremy Meiss
-conference: ""
+conference: "devfest KC 2024"
 socialimg: '../images/bluesky-jerdog-white.png'
 keywords: devex,developer experience,devops
 presenter: true
