@@ -982,7 +982,7 @@ Champion developer well-being and growth: Encourage feedback, recognize achievem
 
 ---
 layout: image-left
-image: /images/slides/champion-growth.jpg
+image: /images/slides/streamline-workflows.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
@@ -1004,7 +1004,7 @@ Focus on tools and automation: Explore options for code editors, version control
 
 ---
 layout: image-left
-image: /images/slides/champion-growth.jpg
+image: /images/slides/standard-env-setup.jpg
 backgroundSize: contain
 class: my-cool-content-on-the-right
 ---
