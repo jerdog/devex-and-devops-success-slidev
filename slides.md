@@ -897,6 +897,16 @@ layout: section
 -->
 
 ---
+layout: center
+---
+
+# Strategies for Improving DevEx
+
+## Improving DevEx in your organization
+
+**DevEx initiatives should be modeled from Leadership _FIRST_**{style="color: red; font-size: 1.25em; font-weight: bolder;"}
+
+---
 
 ## Improving DevEx in your organization
 
