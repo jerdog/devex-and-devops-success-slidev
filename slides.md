@@ -1,8 +1,12 @@
 ---
 titleTemplate: "%s - Slidev"
 title: "Developer Experience is Central to DevOps Success"
-theme: slidev-theme-the-unnamed #wordman, apple-basic, 
-info: false
+theme: slidev-theme-the-unnamed
+info: |
+  ## Developer Experience is Central to DevOps Success
+
+  ## Abstract
+  Developer Experience (DevEx) encompasses every aspect of the experience that your developers (both internal and external) have with your product, tooling, systems, etc. While platform engineering aims to reduce developer toil, DevEx goes beyond that. It covers deployment pipelines, Infrastructure as Code (IaC) practices, developer efficiencies, productivity, UI/UX, and APIs. In this presentation, we will focus on some of the principles of DevOps (collaboration, communication, shared responsibility), go into the history of DevEx and how it's changed over the years (remember Vim? CFEngine?), and how a strong DevEx mindset can bring together development and operations teams.
 author: Jeremy Meiss
 conference: "devfest KC 2024"
 socialimg: '../images/bluesky-jerdog-white.png'
