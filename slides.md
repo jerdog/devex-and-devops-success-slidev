@@ -878,6 +878,15 @@ Reduce toil and free up team members to focus on more strategic activities by **
 -->
 
 ---
+layout: section
+---
+
+# Strategies for Improving DevEx
+<!--
+
+-->
+
+---
 
 ## DevEx reflects an organizational culture
 
@@ -888,13 +897,14 @@ The level of investment that a company invests in DevEx can be a reflection of a
 -->
 
 ---
-layout: section
+layout: center
 ---
 
 # Strategies for Improving DevEx
-<!--
 
--->
+## Improving DevEx in your organization
+
+**DevEx initiatives should be modeled from Leadership _FIRST_**{style="color: red; font-size: 1.25em; font-weight: bolder;"}
 
 ---
 
