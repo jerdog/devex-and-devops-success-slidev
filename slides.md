@@ -645,7 +645,7 @@ A few of the core DevOps principles really bring this all together.
 
 ---
 transition: fade
-layout: top
+layout: default
 ---
 
 ## DevOps Principles + DevEx alignment
@@ -661,7 +661,7 @@ layout: top
 
 ---
 transition: fade
-layout: top
+layout: default
 ---
 
 ## DevOps Principles + DevEx alignment
@@ -675,7 +675,7 @@ layout: top
 
 ---
 transition: fade
-layout: top
+layout: default
 ---
 
 ## DevOps Principles + DevEx alignment
@@ -691,7 +691,7 @@ The backbone of DevOps is effective **communication**, which ensures all members
 
 ---
 transition: fade
-layout: top
+layout: default
 ---
 
 ## DevOps Principles + DevEx alignment
@@ -706,7 +706,7 @@ When we are **improving Communication** , we start to utilize platforms and tool
 
 ---
 transition: fade
-layout: top
+layout: default
 ---
 
 ## DevOps Principles + DevEx alignment
@@ -723,7 +723,7 @@ layout: top
 
 ---
 transition: fade
-layout: top
+layout: default
 ---
 
 ## DevOps Principles + DevEx alignment
