@@ -878,6 +878,15 @@ Reduce toil and free up team members to focus on more strategic activities by **
 -->
 
 ---
+layout: section
+---
+
+# Strategies for Improving DevEx
+<!--
+
+-->
+
+---
 
 ## DevEx reflects an organizational culture
 
@@ -885,15 +894,6 @@ Reduce toil and free up team members to focus on more strategic activities by **
 
 <!-- 
 The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
--->
-
----
-layout: section
----
-
-# Strategies for Improving DevEx
-<!--
-
 -->
 
 ---
