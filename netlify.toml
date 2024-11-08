@@ -6,6 +6,14 @@ CI = "false"
 [build.environment]
 NODE_VERSION = "20"
 
+[context.deploy-preview]
+command = "npm run build"
+CI = "false"
+
+[context.branch-deploy]
+command = "npm run build"
+CI = "false"
+
 [[redirects]]
 from = "/.well-known/*"
 to = "/.well-known/:splat"
