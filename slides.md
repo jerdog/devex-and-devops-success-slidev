@@ -755,8 +755,6 @@ backgroundSize: contain
 
 <!-- 
 Organizations seeking to build more cohesive, agile, and effective teams who are better equipped to meet the demands of modern software development, have to ensure that they don't stop at just these core DevOps principles - but that they ensure an emphasis on DevEx in the implementation of the tooling. If it's a poor experience, you aren't going to see the results you want.
-
-I think a good example is what we've seen with Platform Engineering the last few years.
 -->
 
 ---
@@ -779,18 +777,6 @@ transition: fade
 
 <!-- 
 [click]A good DevEx facilitates **smoother transitions between your dev and ops teams**, helps [click]**minimize bottlenecks and enhances collaboration**. Proper [click]**feedback loops are part of both DevEx & DevOps**, and with them in place you have a positive DevEx that **ensures those loops are efficient and productive**, all of which which [click]**helps DevOps principles** to take firm hold within an organization. There's no better example than what we've seen with Platform Engineering the last few years.
--->
-
----
-layout: image
-image: /images/slides/39-devex-devops-one.jpg
-backgroundSize: contain
----
-
-# DevOps + DevEx = Platform Engineering
-
-<!-- 
-a robust Developer Experience (DevEx) fosters a more integrated and efficient collaboration between development (Dev) and operations (Ops) teams, and highlights best practices for achieving this unity and efficiency. 
 -->
 
 ---
@@ -836,7 +822,7 @@ class: my-cool-content-on-the-left
 </v-clicks>
 
 <!-- 
-Self-service platforms embody the evolution of DevEx by **empowering developers** to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. These platforms **leverage automation, templates, and predefined policies** to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, self-service platforms **accelerate development, enhance productivity, and foster a culture of autonomy and innovation**.
+Self-service platforms embody the evolution of DevEx by [click]**empowering developers** to independently provision resources, deploy applications, and manage their lifecycles without waiting for operational support. [click]These platforms **leverage automation, templates, and predefined policies** to ensure compliance and governance, while offering the agility needed for rapid development cycles. By providing developers with the tools to perform tasks that were traditionally in the domain of IT operations, [click]self-service platforms **accelerate development, enhance productivity, and foster a culture of autonomy and innovation**.
 -->
 
 ---
@@ -874,12 +860,7 @@ backgroundSize: contain
 </v-clicks>
 
 <!-- 
-Some of the better practices to keep in mind when leveling up with DevEx are:
-**Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs. Get their input in the decision. Just because your buddy's IT startup says they offer 10x developer productivity doesn't mean it works for your teams, much less that it works at all.
-**Put in place cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance.  
-**Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience.  
-Reduce toil and free up team members to focus on more strategic activities by **automating repetitive and manual tasks wherever possible.** This includes automating testing, deployments, and infrastructure provisioning.  
-**Ensure that team members have opportunities to learn and grow** their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.
+Some of the better practices to keep in mind when leveling up with DevEx are: [click]**Equip teams** with integrated, user-friendly tools that support automation, collaboration, and real-time communication. Choose the tools which align with both Dev and Ops needs. Get their input in the decision. Just because your buddy's IT startup says they offer 10x developer productivity doesn't mean it works for your teams, much less that it works at all. [click]**Put in place cross-functional teams** that include roles with diverse expertise (e.g., development, operations, quality assurance) to foster a shared understanding and responsibility from project inception through to deployment and maintenance. [click]**Establishing robust feedback mechanisms** allow for continuous learning and improvement. Conduct regular retrospectives, incorporate user feedback into development cycles, and use monitoring tools to gather insights on performance and user experience. [click]Reduce toil and free up team members to focus on more strategic activities by **automating repetitive and manual tasks wherever possible.** This includes automating testing, deployments, and infrastructure provisioning. [click]**Ensure that team members have opportunities to learn and grow** their skills in both development and operations domains. This helps in building empathy between teams and equips individuals with the knowledge to understand and contribute to different stages of the development lifecycle.
 -->
 
 ---
@@ -887,8 +868,9 @@ layout: section
 ---
 
 # Strategies for Improving DevEx
-<!--
 
+<!--
+You may be in a position where you want to help drive the changes needed to improve the DevEx in your organization. But...
 -->
 
 ---
@@ -910,6 +892,10 @@ layout: center
 ## Improving DevEx in your organization
 
 **DevEx initiatives should be modeled from Leadership _FIRST_**{style="color: red; font-size: 1.25em; font-weight: bolder;"}
+
+<!--
+So the first thing to improve DevEx in your organization, is it has to be modeled from leadership. You may be driving it, but they need to model it, and champion it, and it needs to be an OKR. Otherwise, it won't happen in any meaningful way.
+-->
 
 ---
 
@@ -1072,7 +1058,7 @@ layout: two-cols
 ---
 
 
-<div class="flex items-center gap-3" style="padding-top:10px;">
+<div class="items-center" style="padding-top:200px;">
 
 ## Thank you!
 
@@ -1085,6 +1071,7 @@ layout: two-cols
 <p><img src="/images/devto.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog</p>
 <p><img src="/images/mastodon.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@jerdog@hachyderm.io</p>
 <p><img src="/images/twitter.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">@IAmJerdog</p>
+<p><img src="/images/www.png" style="vertical-align: middle; display: inline; margin: 5px; max-height:50px;">jmeiss.me</p>
 
 
 <!-- 
