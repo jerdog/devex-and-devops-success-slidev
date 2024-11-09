@@ -13,7 +13,7 @@ socialimg: '../images/bluesky-jerdog-white.png'
 keywords: devex,developer experience,devops
 presenter: true
 download: true
-exportFilename: devex-central-devops-success-slidevExport
+exportFilename: devfestKC24_devex-central-devops-success
 export:
   format: pdf
   timeout: 30000
