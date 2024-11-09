@@ -76,18 +76,6 @@ Heroku was long considered the gold standard for developer experience with a sim
 -->
 
 ---
-
-## A working definition of DevEx
-  
->_"...the **journey** of developers and practitioners as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder them from achieving success in their endeavors."_
-
--**Jessica West**, _Co-Founder, DevEx Institute_
-
-<!--
-Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
--->
-
----
 layout: image-left
 image: "/images/slides/cornell-devex.jpg"
 backgroundSize: contain
@@ -115,6 +103,9 @@ class: my-cool-content-on-the-right
 
 _REF: F. Fagerholm and J. Münch, "[Developer experience: Concept and definition](https://ieeexplore.ieee.org/document/6225984?arnumber=6225984). 2012."_
 
+<!--
+The first is where it talked about these New ways of working where development was globally distributed and integrating self-motivated external developers into software ecosystems and would require a better and more comprehensive understanding of developers' feelings, perceptions, motivations and identification with their tasks in their respective project environments.
+-->
 ---
 layout: image-left
 image: /images/slides/cornell-devex.jpg
@@ -162,7 +153,8 @@ transition: slide-down
 ## A working definition of DevEx
   
 >_"...the **journey** of developers as they learn and deploy technology, which if successful, focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors."  
-> -Jessica West, Co-Founder, DevEx Institute_
+
+-**Jessica West**, _Co-Founder, DevEx Institute_
 
 <!--
 Let's start with a definition of DevEx - DevEx is the journey of developers as they learn and deploy technology. When successful, it focuses on eliminating obstacles that hinder a developer or practitioner from achieving success in their endeavors.
