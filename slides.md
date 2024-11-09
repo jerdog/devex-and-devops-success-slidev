@@ -509,6 +509,19 @@ I go through all of that to illustrate how the overall Developer Experience with
 -->
 
 ---
+layout: two-cols
+---
+
+![DALL-E](/images/slides/dallE-evolution-ides.jpg)
+
+::right::
+
+![gemini](/images/slides/gemini-evolution-ides.jpeg)
+
+<!--
+"Create a pixel art illustration showing the evolution from text editors to cloud-based IDEs, emphasizing the progression in development environments in the style of the classic image which showed human evolution from ape to man."
+-->
+---
 layout: image
 image: /images/slides/modern-dev-practices.jpg
 backgroundSize: contain
