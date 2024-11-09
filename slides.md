@@ -562,7 +562,7 @@ class: my-cool-content-on-the-right
 
 <!--
 Another quick example is the setup of environments like dev, staging, and production. In the early days, setting up an environment involved manually configuring each tool, library, and dependency, which was time-consuming and error-prone. Practitioners often struggled with version conflicts and compatibility issues between different tools and libraries.
-[click]In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
+In the mid- to late-90s systems like CFEngine v1 and CFEngine v2 emerged to automate this process.
 -->
 
 ---
