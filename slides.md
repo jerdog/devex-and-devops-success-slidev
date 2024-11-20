@@ -853,7 +853,7 @@ backgroundSize: contain
 
 - Implement Feedback Loops
 
-- Focus on Automation [Paige Bailey automation post](https://medium.com/@webpaige/automating-away-the-boring-parts-of-my-job-with-gemini-1-5-pro-long-context-windows-6d5a1d9a6f38)
+- Focus on Automation ([Paige Bailey automation post](https://medium.com/@webpaige/automating-away-the-boring-parts-of-my-job-with-gemini-1-5-pro-long-context-windows-6d5a1d9a6f38))
 
 - Invest in Training and Development
 
