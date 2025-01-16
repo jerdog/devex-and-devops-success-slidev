@@ -314,12 +314,8 @@ title: "DevEx clarification"
 
 ### Point of clarification
 
-<v-clicks>
-
 - "DevEx" by default focuses on "developer"
 - View "DevEx" as a whole of the lifecycle
-
-</v-clicks>
 
 <!--
 I think it's important to clarify that "DevEx" by default focuses on the "developer", but we should really view DevEx as a whole part of the lifecycle, and not just for developers only.
@@ -414,8 +410,8 @@ title: "--DevEx"
 <!--
 ## Developer Experience (DevEx)
 
-[click]- Focus: _holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)_
-[click]- Unique: _integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops._
+- Focus: _holistic view encompassing all aspects of the developer journey (usability, efficiency, satisfaction, etc.)_
+- Unique: _integrates elements of UX and productivity, but with a broader scope of psychological safety, community, and feedback loops._
 -->
 
 ---
