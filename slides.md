@@ -463,7 +463,7 @@ class: my-cool-content-on-the-right
 
 </v-clicks>
 
-<!-- Then we had Emacs in 1985, Vim in 1991, my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time. -->
+<!-- [click]Then we had Emacs in 1985, [click]Vim in 1991, [click]my personal favorite, `nano`. And not entirely because I can exit it without having to throw out the computer and buy a new one like I do with Vim. Saving the planet, one less computer thrown away because of Vim at a time. -->
 
 ---
 layout: image-left
@@ -485,7 +485,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-A few Native IDEs came out in the mid-80s, with Turbo Pascal in 1983 and Apple's Macintosh Programmer's Workshop in 1986.
+[click]A few Native IDEs came out in the mid-80s, with Turbo Pascal in 1983 and [click]Apple's Macintosh Programmer's Workshop in 1986.
 -->
 
 ---
@@ -498,6 +498,8 @@ class: my-cool-content-on-the-right
 # Evolution of the IDE
 
 ## First plug-in IDE
+
+### HP Softbench
 
 <!-- One of the first IDEs with a plug-in concept was HP Softbench, released in 1989. HP Softbench was one of the first plug-in IDEs, shipped with its own library, -->
 
@@ -592,7 +594,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? SGI's WebMagic was released on January 25, 1995 built in less than 90 days. FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October 1995 after Microsoft acquired it from Vermeer.
+With the launch of the World Wide Web, and then its explosion of growth, the IDEs started becoming more graphical and had a more modern look and feel. Who remembers the first HTML WYSIWYG editor? [click]SGI's WebMagic was released on January 25, 1995 built in less than 90 days. [click]FrontPage (https://softpanorama.org/Office/Frontpage/history.shtml) was soon to follow in October 1995 after Microsoft acquired it from Vermeer.
 -->
 
 ---
@@ -622,7 +624,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) Dreamweaver completely changed the game in many respects, as Macromedia had a history of their products getting community-sourced tools, plugins, scripts, etc. Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). NetBeans was released in 2000 for Java, with IntelliJ and Eclipse following in 2001 along with Visual Studio which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile. Microsoft Visual Studio .NET was released in 2002, offering a more modern and feature-rich IDE for .NET development.
+[click]Macromedia's Dreamweaver came out in 1997 (after Macromedia acquisition of Backstage from iBand in 1996) Dreamweaver completely changed the game in many respects, as Macromedia had a history of their products getting community-sourced tools, plugins, scripts, etc. [click]Microsoft released their first version of Visual Studio in 1997, and then [click]Microsoft FrontPage 2000 saw the first inclusion of plugins and integrations in early 1999 to make web management easier (FrontPage Server Extensions). [click]NetBeans was released in 2000 for Java, with [click]IntelliJ and [click]Eclipse following in 2001 and then along with [click]Micorosoft Visual Studio .NET in 2002 with a more modern and feature-rich IDE for .NET development. We started seeing IDEs which offered enhanced functionality and more sophisticated features like intelligent code completion, refactoring tools, and improved version control integration. We saw a noticeable increase in support for multiple languages and frameworks, making these IDEs more versatile.
 -->
 
 ---
@@ -649,7 +651,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-Late 2000s brought about more lightweight IDEs, like Sublime Text and later Atom and Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Event saw integrations with popular Ops tools as well.
+[click]Late 2000s brought about more lightweight IDEs, like Sublime Text and later [click]Atom and [click]Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Event saw integrations with popular Ops tools as well.
 -->
 
 ---
@@ -677,7 +679,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-Then, we have seen the rise of the cloud and the arrival of cloud-based IDEs: The first was PHPanywhere (eventually becoming CodeAnywhere) in 2009, followed by Cloud9 in 2010 (before AWS bought it in 2016), Glitch (2018), GitPod (2019), GitHub Codespaces (2020), and Google’s Project IDX (2024). They've really changed the game by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup. We went from this sentiment about IDEs...
+Then, we have seen the rise of the cloud and the arrival of cloud-based IDEs: The first was [click]PHPanywhere (eventually becoming CodeAnywhere) in 2009, followed by [click]Cloud9 in 2010 (before AWS bought it in 2016), [click]Glitch (2018), [click]GitPod (2019), [click]GitHub Codespaces (2020), and [click]Google’s Project IDX (2024). They've really changed the game by offering fully configured development environments in the cloud, accessible from anywhere, reducing the need for complex local setup. We went from this sentiment about IDEs...
 -->
 
 ---
@@ -823,7 +825,7 @@ Docker’s introduction in 2013 marked a significant shift, allowing practitione
 </div>
 
 <!--
-Tools like Terraform and AWS CloudFormation enabled defining infrastructure through code, making setup reproducible and scalable.
+[click]Tools like Terraform and AWS CloudFormation enabled defining infrastructure through code, making setup reproducible and scalable.
 
 [click]The integration of environments with CI/CD pipelines and DevOps practices streamlined the whole process, allowing for faster and more reliable builds and deployments.
 -->
