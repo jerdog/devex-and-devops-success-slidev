@@ -21,10 +21,10 @@
     "slidev-theme-the-unnamed": "^0.0.20",
     "netlify-cli": "^17.37.2",
     "unplugin-icons": "^0.20.1",
+    "playwright-chromium": "^1.48.2",
     "vue": "^3.4.38"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.48.2",
     "prettier": "^3.3.3",
     "prettier-plugin-slidev": "^1.0.5"
   }
