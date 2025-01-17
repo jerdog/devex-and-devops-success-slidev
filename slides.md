@@ -834,7 +834,7 @@ Docker’s introduction in 2013 marked a significant shift, allowing practitione
 
 ## Broader Impact of DevEx
 
-- Deployment pipelines
+- Deployment pipeliness
 
 - Infrastructure as Code (IaC) practices
 
@@ -1096,7 +1096,7 @@ title: "--CI/CD + Automation"
 
 <v-clicks>
 
-- Automate everything possible  ([Paige Bailey automation post](https://medium.com/@webpaige/automating-away-the-boring-parts-of-my-job-with-gemini-1-5-pro-long-context-windows-6d5a1d9a6f38))
+- Automate everything possible
 
 - Fast feedback loops ("Fail Fast")
 
@@ -1312,124 +1312,6 @@ title: "--Reflects org culture"
 
 <!--
 The level of investment that a company invests in DevEx can be a reflection of a company's values towards its employees, especially its developers. A strong focus on DevEx shows a commitment to employee well-being and efficiency. And prioritizing DevEx helps foster a culture of excellence and innovation. When developers are provided with the right tools, support, and environment, they are more likely to produce high-quality work and push the boundaries of what's possible.
--->
-
----
-layout: image-left
-image: /images/slides/team-priority.jpg
-backgroundSize: contain
-class: my-cool-content-on-the-right
----
-
-# Enhancing the Developer Experience
-
-## Prioritize DevEx at every level
-
-**DevEx initiatives should be modeled from Leadership _FIRST_**{style="color: red; font-size: 1.25em; font-weight: bolder;"}
-
-***THEN...***
-
-<v-clicks>
-
-- Appoint **DevEx Champions** in every team
-
-- Establish **feedback loops**
-
-</v-clicks>
-
-<!--
-Developer Experience (DevEx) should be a shared responsibility across teams. Encourage teams to prioritize DevEx by embedding it in the organization's culture. And it MUST be modeled from the top.
-
-Strategies:
-[click]- Appoint DevEx Champions in every team to gather feedback and drive improvements.
-[click]- Establish feedback loops through regular surveys and direct input from developers.
--->
-
----
-layout: image-left
-image: /images/slides/reducing-friction.jpg
-backgroundSize: contain
-class: my-cool-content-on-the-right
-title: "--Streamline processes"
----
-
-# Enhancing the Developer Experience
-
-## Streamline processes and reduce friction
-
-<v-clicks>
-
-- Automate repetitive tasks
-
-- Implement self-service tools
-
-</v-clicks>
-
-<!--
-Explanation: Simplify workflows to eliminate bottlenecks that slow down development.
-
-Strategies:
-[click]- Automate repetitive tasks such as testing, deployment, and code reviews.
-[click]- Implement self-service tools for environment provisioning to reduce dependency on other teams.
--->
-
----
-layout: image-left
-image: /images/slides/supportive-community.jpg
-backgroundSize: contain
-class: my-cool-content-on-the-right
-title: "--Build supportive community"
----
-
-# Enhancing the Developer Experience
-
-## Build a supportive community
-
-<v-clicks>
-
-- Foster internal developer communities
-
-- Encourage mentorship programs
-
-</v-clicks>
-
-<!--
-A strong community provides developers with a sense of belonging and a platform for shared learning.
-
-Strategies:
-[click]- Foster internal developer communities through forums, Slack channels, and knowledge-sharing sessions.
-[click]- Encourage mentorship programs to help new developers grow and learn from experienced colleagues.
--->
-
----
-layout: image-left
-image: /images/slides/measure-success.jpg
-backgroundSize: contain
-class: my-cool-content-on-the-right
-title: "--Measure success..."
----
-
-# Enhancing the Developer Experience
-
-## Measure your success... and iterate
-
-<v-clicks>
-
-- Get a baseline of where you are
-
-- Track qualitative feedback
-
-- Analyze quantitative metrics
-
-</v-clicks>
-
-<!--
-Use metrics to continuously monitor and improve the developer experience.
-
-Strategies:
-[click]- Get a baseline of where you are by conducting surveys and interviews.
-[click]- Track qualitative feedback through surveys and retrospectives.
-[click]- Analyze quantitative metrics such as deployment frequency, time-to-recover, and cycle time.
 -->
 
 ---
