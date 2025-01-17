@@ -91,7 +91,7 @@ title: '--Common Examples'
 
 <v-click>
 
-- Missing OpenAPI spec (or event APIs)
+- Missing OpenAPI spec (or even APIs)
 
 
 </v-click>
@@ -99,7 +99,7 @@ title: '--Common Examples'
 <!--
 We’ve all worked with those companies that say they have a developer platform, but are missing documentation for their APIs, or even worse, no APIs at all.
 
-[click]- Missing OpenAPI spec (or event APIs)
+[click]- Missing OpenAPI spec (or even APIs)
 -->
 
 ---
@@ -115,7 +115,7 @@ title: '--Common Examples'
 
 - Poorly documented features (or bugs)
 
-- Missing OpenAPI spec (or event APIs)
+- Missing OpenAPI spec (or even APIs)
 
 <v-click>
 
@@ -142,7 +142,7 @@ title: '--Common Examples'
 
 - Poorly documented features (or bugs)
 
-- Missing OpenAPI spec (or event APIs)
+- Missing OpenAPI spec (or even APIs)
 
 - Downloading documentation… as a PDF, or access-gated
 
@@ -171,7 +171,7 @@ title: '--Common Examples'
 
 - Poorly documented features (or bugs)
 
-- Missing OpenAPI spec (or event APIs)
+- Missing OpenAPI spec (or even APIs)
 
 - Downloading documentation… as a PDF, or access-gated
 
@@ -651,7 +651,7 @@ class: my-cool-content-on-the-right
 </v-clicks>
 
 <!--
-[click]Late 2000s brought about more lightweight IDEs, like Sublime Text and later [click]Atom and [click]Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Event saw integrations with popular Ops tools as well.
+[click]Late 2000s brought about more lightweight IDEs, like Sublime Text and later [click]Atom and [click]Visual Studio Code (VSCode) emerged, focusing on speed, user-friendly interfaces, and extensive plugin ecosystems. They catered to a broader range of developers by being less resource-intensive and more customizable. Even saw integrations with popular Ops tools as well.
 -->
 
 ---
